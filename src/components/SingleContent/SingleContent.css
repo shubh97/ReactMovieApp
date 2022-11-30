@@ -1,0 +1,39 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: rgb(44, 42, 42);
+    border-radius: 10px;
+    position: relative;
+}
+
+.media:hover {
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 550px) {
+    .media{
+        width: 46%;
+    }
+}
+
+.poster {
+    border-radius: 10px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding: 0 2px;
+}

@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    padding-left: 2%;
+    background-color: rgb(24, 25, 27);
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 5%;
+    font-size: 30px;
+    color: aliceblue;
+    z-index: 100;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 5px black;
+}
+
+@media (max-width:1000px) {
+    .header {
+        padding-top: 15px;
+        font-size: 6vw;
+    }
+}
